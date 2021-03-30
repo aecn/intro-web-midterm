@@ -47,22 +47,22 @@ body {
   font-family: Josefin Sans, sans-serif;
 }
 
-a:link {
+.navigation a:link {
   text-decoration: none;
   color: black;
 }
 
-a:visited {
+.navigation a:visited {
   color: white;
   text-decoration: none;
 }
 
-a:hover {
+.navigation a:hover {
   color: white;
   border-bottom: solid white 2px;
 }
 
-.active {
+.navigation .active {
   color: white;
   border-bottom: solid white 2px;
 }
@@ -233,21 +233,6 @@ h3 {
   padding-right: 50px;
 }
 
-.aboutFooter h3:first-of-type {
-  text-decoration: underline;
-  font-size: 3vmin;
-}
-
-.ideasFooter h3:first-of-type {
-  text-decoration: underline;
-  font-size: 3vmin;
-}
-
-.contact h3:first-of-type {
-  text-decoration: underline;
-  font-size: 3vmin;
-}
-
 .socialMedia img {
   padding: 5px;
 }
@@ -255,4 +240,24 @@ h3 {
 .contactFooter h3 {
     font-family: Quicksand, sans-serif;
 }
+
+.contactFooter a:link {
+  text-decoration: none;
+  color: black;
+}
+
+.contactFooter a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.contactFooter a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.contactFooter .active {
+  color: white;
+}
+
 /*footer end*/
