@@ -3,11 +3,10 @@ body {
   padding: 0px;
 }
 
-.mainContainer {
+.topSection {
   display: grid;
   grid-template-columns: repeat(11, 1fr);
-  grid-template-rows: 60px 300px repeat(6, 1fr);
-  height: 1600px;
+  grid-template-rows: 60px 300px 1fr;
 }
 
 /*navigation start*/
@@ -70,41 +69,47 @@ a:hover {
 /*navigation end*/
 
 .heroImage {
-  background-image: url("Images/header.jpg");
+  background-image: url(Images/header.jpg);
   background-size: cover;
   grid-area: 1/1/4/12;
   z-index: -1;
+  height: 70vmin;
 }
 
-.about {
+.mainTitle {
   grid-column: 1/12;
-  background-color: #fff1e6;
   padding: 50px;
+  background-color: #eddcd2;
 }
 
-.miniAbout {
-  background-color: #fff1e6;
+.mainTitle h1 {
+  text-decoration: none;
+  font-size: 6vmin;
   display: flex;
-  flex-direction: row;
   justify-content: center;
 }
 
+.miniAbout {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
 .def {
+  grid-column: 1/12;
   display: flex;
   flex-direction: column;
-  padding: 40px;
-  border: solid #ddbea9 3px;
-  background-color: #f8edeb;
-  margin-top: 35px;
   line-height: 5vmin;
+  padding: 20px;
 }
 
 .def p {
-  font-size: 3vmin;
+  font-size: 5vmin;
 }
 
 .def h2 {
-  font-size: 8vmin;
+  font-size: 15vmin;
   font-family: Josefin Sans, sans-serif;
 }
 
@@ -114,7 +119,7 @@ a:hover {
   flex-direction: column;
   padding-left: 50px;
   padding-right: 50px;
-  width: 100vmin;
+  width: 120vmin;
   line-height: 5vmin;
   font-weight: 500;
 }
@@ -171,7 +176,6 @@ a:hover {
 h1 {
   text-align: center;
   font-family: Josefin Sans, sans-serif;
-  text-decoration: underline;
 }
 
 p {
@@ -246,5 +250,9 @@ h3 {
 
 .socialMedia img {
   padding: 5px;
+}
+
+.contactFooter h3 {
+    font-family: Quicksand, sans-serif;
 }
 /*footer end*/

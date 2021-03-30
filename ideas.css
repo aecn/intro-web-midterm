@@ -102,7 +102,6 @@ p {
 h1 {
   font-family: Josefin Sans, sans-serif;
   text-align: center;
-  text-decoration: underline;
 }
 
 h3, h4 {
@@ -133,7 +132,6 @@ h3, h4 {
   line-height: 5vmin;
   border: solid #ddb892 3px;
   background-color: #f8edeb;
-  text-decoration: underline;
   margin: 10px;
 }
 
@@ -165,6 +163,47 @@ h3, h4 {
   grid-gap: 20px;
   grid-column: 1/12;
   object-fit: cover;
+}
+
+.galleries {
+  display: flex;
+  justify-content: center;
+}
+
+.living {
+  text-align: center;
+  padding: 30px;
+}
+
+.living img {
+  padding: 10px;
+}
+
+.living1 {
+  flex-direction: row;
+}
+
+.living2 {
+  flex-direction: row;
+}
+
+.public {
+  background-color: #ddb892;
+  text-align: center;
+  padding: 30px;
+  color: #ffffff;
+}
+
+.public img {
+  padding: 10px;
+}
+
+.public1 {
+  flex-direction: row;
+}
+
+.public2 {
+  flex-direction: row;
 }
 
 /*footer start*/
@@ -226,6 +265,10 @@ h3, h4 {
 
 .socialMedia img {
   padding: 5px;
+}
+
+.contactFooter h3 {
+    font-family: Quicksand, sans-serif;
 }
 
 /*footer end*/

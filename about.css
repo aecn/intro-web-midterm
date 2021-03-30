@@ -67,14 +67,14 @@ a:hover {
   color: white;
   border-bottom: solid white 2px;
 }
-
 /*navigation end*/
+
 .aboutUs {
   background-image: url("Images/interior2.jpg");
   background-size: cover;
   display: flex;
   justify-content: center;
-  color: white
+  color: white;
 }
 
 h2 {
@@ -89,7 +89,7 @@ h2 {
   padding-right: 50px;
 }
 
-p {
+.aboutUs p {
   font-size: 3vmin;
   font-family: Quicksand, sans-serif;
   flex-direction: column;
@@ -141,12 +141,61 @@ h1 {
   text-align: center;
 }
 
-.contactFooter {
-  background-color: #e6ccb2;
+.botSection {
+  width: 100%
 }
 
-h3 {
+.goalsSection {
+  display: flex;
+  flex-direction: row;
+}
+
+.goalsImg {
+  flex-direction: row;
+}
+
+.goalsDesc {
+  padding: 50px;
+  text-align: left;
   font-family: Josefin Sans, sans-serif;
+  font-size: 4vmin;
+  flex-direction: row;
+  background-color: #fff1e6;
+}
+
+.goalsDesc h3 {
+  font-family: Josefin Sans, sans-serif;
+  text-align: left;
+  font-size: 4vmin;
+}
+
+.goalsDesc, .commDesc p {
+  font-family: Quicksand, sans-serif;
+  font-size: 3vmin;
+}
+
+.commSection {
+  display: flex;
+  flex-direction: row;
+}
+
+.commImg {
+  flex-direction: row;
+}
+
+.commDesc {
+  padding: 50px;
+  text-align: left;
+  font-family: Josefin Sans, sans-serif;
+  font-size: 4vmin;
+  flex-direction: row;
+  background-color: #fff1e6;
+}
+
+.commDesc h3 {
+  font-family: Josefin Sans, sans-serif;
+  text-align: left;
+  font-size: 4vmin;
 }
 
 /*footer start*/
@@ -208,6 +257,10 @@ h3 {
 
 .socialMedia img {
   padding: 5px;
+}
+
+.contactFooter h3 {
+    font-family: Quicksand, sans-serif;
 }
 
 /*footer end*/
